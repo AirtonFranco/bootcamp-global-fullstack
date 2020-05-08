@@ -1,0 +1,9 @@
+O curso será baseado nas seguintes tecnologias
+
+Front-End
+-JavaScript
+-ReactJS
+-Angular
+
+BackEnd
+-Python
