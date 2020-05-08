@@ -51,3 +51,18 @@ git branch - D <<nome da branch>> (deleta a branch)
 git push origin <!--Nome da Branch--><!--Ir� fazer criar a branch no repositorio remoto-->
 git merge <!--nome da branch que quer juntar--> <!-- esse comando junta as branchs na master-->
 
+Corrigindo Bugs:
+error: failed to push some refs to 'https://github.com/me/myproject'
+
+Você está tentando subir alterações para um git remoto (provavelmente GitHub), porém no servidor 
+remoto existem alterações mais novas que a suas, que você ainda não tem. Portanto, antes de fazer o push, faça um
+
+- git checkout master
+- git pull origin master
+
+Dessa forma, vai atualizar seu repositório local com as alterações do remoto.
+
+Se algum arquivo que foi alterado por você, também foi alterado no remoto, 
+você precisará fazer um merge, e resolver possíveis conflitos antes de fazer o git push origin master.
+
+Leia com atenção: Se você não quer as alterações que estão no remoto, e quer sobrescrever com as alterações do seu repositório local, use - com cuidado, pois irá SOBRESCREVER o repo remoto com seu local - o git push origin master --force. Se quiser isso mesmo, não precisa nem rodar um pull.
