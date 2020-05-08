@@ -1,0 +1,47 @@
+Fundamentos de Arquitetura de Sistema - Aula 1
+
+<<Objetivo da Aula>>
+
+1 - O que são serviços Web
+
+2 - As vantagens de se utilizar Serviços Web
+
+3 - Tecnologia mais utilizadas  para desenvolvimento de serviços Web
+
+
+<<Serviços Web>>
+
+- Serviços Web ou Web Services são soluções para aplicaçoes se comunicarem idepedente 
+de linguagem, softwares e hardwares utilizados.
+
+- Inicalmente Web Services foram criados para troca de mensagens utilizando a 
+linguagem XML (Extesible Markup language)
+
+- Podemos dizer que Web Services são API's que se comunicam por meio de redes 
+sobre o protocolo HTTP sendo identificada por URI (mesmo que URL) (UNIFORME RESOURCE IDENTIFIER)
+
+Obs: As cominicacoes entre sistemas sao por API's e estao escrita em linguagens de marcação JSON ou XML,
+são por essas API's que os sistemas se comunicam.
+
+Obs2: O sistema x faz uma requisição  ao sistema y atravez de um protocolo HTTP exemplo (http://webservice.com/dados/)
+o web Services vai pegar essa requisiçao, faz a consulto e devolve a informaçao ao sistema que fez a requisição
+
+<<Vantagens>>
+
+- Linguagem comunicam
+
+- integração
+
+- Reutilizaçao de Implementacáo
+
+- Segurança
+
+- Custos
+
+Principais tecnologias
+
+- Arquitetura Soap
+muito voltado ao XML
+
+- Arquitetura REST
+Muito voltado ao JSON, mais tambem é utilizado com XML

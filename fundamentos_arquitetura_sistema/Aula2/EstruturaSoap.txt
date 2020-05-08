@@ -1,0 +1,8 @@
+Estrutura SOAP
+
+<<Objetivo da aula>>
+
+1 - O que ë SOAP
+
+2 - As vantagens de se ultilizar SOAP
+
