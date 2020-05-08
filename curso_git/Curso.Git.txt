@@ -50,3 +50,4 @@ git chechout <<nome da branch>> (navegar entre as branchs)
 git branch - D <<nome da branch>> (deleta a branch)
 git push origin <!--Nome da Branch--><!--Ir� fazer criar a branch no repositorio remoto-->
 git merge <!--nome da branch que quer juntar--> <!-- esse comando junta as branchs na master-->
+

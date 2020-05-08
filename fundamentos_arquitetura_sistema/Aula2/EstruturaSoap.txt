@@ -6,3 +6,73 @@ Estrutura SOAP
 
 2 - As vantagens de se ultilizar SOAP
 
+3 - O que é XML
+
+4 - Entender a Estrutura de uma mensagem SOAP
+
+O que é o SOAP
+
+- SOAP (Simple Object Access Protocol)
+
+- Pode-se dizer que SOAP é uma definição de como serviços web se comunicam 
+
+- Foi desenvolvido  para facilitar integrações entre aplicaçöes. 
+
+<<Vantagens>>
+
+- Permite integraçoes entre aplicaçöes, idepedente de linguagem pois usa como linguagem, 
+comum o xml.
+
+- É idepedente de plataformas e softwares
+
+- Meio de transporte generico, ou seja pode ser usado por outros protocolos além do HTTP.
+
+Obs: O SOAP é geralmente usado em outros tipos de protocolos SMTP por exemplo, mais tambem pode 
+ser utilizado com HTTP, mas não é frequente usar nessse tipo de protocolo.
+
+Obs2: O SOAP sempre será usado na linguagem de marcação XML, mas nem sempre o XML será
+usado exclusimanete em SOAP, pode ser usado em outra estrutura como por exemplo o REST
+
+Obs: o XML foi padronizado pela W3C (A W3C que dita os padroes da web)
+
+<<XML>>
+
+- XML (EXTENSIBLE MARKUP LANGUAGE)
+
+- É uma linguagem de marcação criada na decada de 90 pela W3C
+
+- facilita a separação de conteúdo
+
+- Não tem limitaçao de criação de TAGS
+
+- linguagem comum para integrações entre aplicaçöes
+
+<<Estrtura SOAP>>
+
+O "SOAP Menssage"possui uma estrtura única que deve sempre ser seguida
+
+1 - SOAP Envelope
+TAG pai, tudo vai ficar dentro do SOPA Envelope, ele é o primeiro elemento do documento
+e é usado para encapsular toda mensagem SOAP.
+
+2 - SOAP Header
+É o elemento onde possui informaçoes de atributos e metadados da requisiçao
+
+3 - SOAP Body
+É o elemento que contém os detalhes da mensagem 
+
+<<Estrutura XML da Mensagem SOAP>>
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <soap:Header>
+    </soap:Body>
+        <m:MetodoEndereço xmlns:m="http://www.exemple.org/endereco">
+            <m:Cidade>Amazonas</m:Cidade>
+            <m:CEP>69097-000</m:CEP>
+            <m:Rua>Avenida</m:Rua>
+            <m:Numero>99</m:Numero>
+        </m:Endereço>
+    <soap:Body>
+</soap:Envelope>
+
+
