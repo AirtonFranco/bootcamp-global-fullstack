@@ -34,7 +34,8 @@ Fazendo auteracoes no repositorio remoto
 Depois de fazer as auteracoes no meu projeto seguir os seguintes passos.
 
 1 - git status
-2 - git add <<nome do arquivo>>
+2 - git add <<nome do arquivo>> (Este comando incluir apenas alteracoes no arquivo desejado) 
+ou git add . (Esse comando inclui todas as auteraçoes)
 3 - git commit -m "digite aqui o comitt da auteracao"
 4 - git status
 5 - git log (Mostra os commits que foram executados)
@@ -66,3 +67,5 @@ Se algum arquivo que foi alterado por você, também foi alterado no remoto,
 você precisará fazer um merge, e resolver possíveis conflitos antes de fazer o git push origin master.
 
 Leia com atenção: Se você não quer as alterações que estão no remoto, e quer sobrescrever com as alterações do seu repositório local, use - com cuidado, pois irá SOBRESCREVER o repo remoto com seu local - o git push origin master --force. Se quiser isso mesmo, não precisa nem rodar um pull.
+
+Obs: Nunca faça um commit na Branch master, sempre crie uma branch de trabalho.
