@@ -1,0 +1,48 @@
+O QUE SÃO REST, API E JSON
+
+OBJETIVO DA AULA
+
+1. O que é REST
+2. Vantagens de se ultilizar REST
+3. O que é API
+4. Entendendo os metodos ultilizados pelo REST
+5. Estrutura de um REST
+6. Estrutura de um JSON
+
+<<REST>>
+
+- REST (Representational State Tranfer.)
+- É um estilo de arquitetura de software que define a implementaçao de um servico web
+- Podem trabalhar com os formatos   XML, JSON uo OUTROS.
+
+A diferença de SOAP e REST
+
+SOAP é um protocolo XML
+REST é um estilo de arquitetura de software
+
+Obs: O REST nao é somente para integrar dois sistemas 
+mas tambem integrar o Front com o Back através de API
+
+Requisicoes HTTP: get, post, put, delete...
+Retorna em formato Texto, JSON, XML...
+
+Ver imagem: estrutura-api
+
+API - Vide imagem: conceito-api
+
+<<PRINCIPAIS METODOS HTTP>>
+
+ GET, POST, DELETE e PUT
+ - Vide img: metotodosHTTP
+
+ Obs: parao servico web ser um REST precisa seguir este principio 
+
+ <<JSON>>
+
+ Mais ultilizados para troca de mensagem entre siste
+- Vide img: conceito-json
+
+Estrtura do JSON
+- vide img: estrutura-json
+
+
