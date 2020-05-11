@@ -69,3 +69,5 @@ você precisará fazer um merge, e resolver possíveis conflitos antes de fazer 
 Leia com atenção: Se você não quer as alterações que estão no remoto, e quer sobrescrever com as alterações do seu repositório local, use - com cuidado, pois irá SOBRESCREVER o repo remoto com seu local - o git push origin master --force. Se quiser isso mesmo, não precisa nem rodar um pull.
 
 Obs: Nunca faça um commit na Branch master, sempre crie uma branch de trabalho.
+
+Obs: Video explicativo (https://www.youtube.com/watch?v=CGTsIz5t0eY&list=RDCMUClBrpNsTEFLbZDDMW1xiOaQ&start_radio=1&t=661)
