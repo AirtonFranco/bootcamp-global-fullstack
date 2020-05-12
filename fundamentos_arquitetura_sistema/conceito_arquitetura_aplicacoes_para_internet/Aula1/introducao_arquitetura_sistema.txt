@@ -7,15 +7,29 @@
 <<Tipos de Arquitetura>>
 
 -Monolitico
-Vide Imagem: arquitetura_monolitico
 arquitetura monolitico é  uma arquitetura mais simples e tem alguns pontos falhos
+Vide Imagem: arquitetura_monolitico
 
 Arquiteturas de Microservicos
--Microservicos #1
 
-Vide Imagem: microservicos_#1   
+-Microservicos #1
 O primeiro modelo de microservicos poder mais complexo de monitorar conforma o sistema for crescendo
-e o esquema na imagem nos mostra que cada camada poder um sistema monolitico onde se conectam entre simples
+e o esquema na imagem nos mostra que cada camada pode ser um sistema monolitico onde se conectam entre si
 atravez de uma solicitacao do cliente web ou mobile.
+Vide Imagem: microservicos_#1
 
 -Microservicos #2
+Cada servico e idepedente um do outro, se um servico cair os outros continuam rodando, qualquer mensagem que o servico 1 quiser passar ele vai passar 
+para o Message Brocker e quando o outro servico estiver online ele vai la buscar esse servico
+Vantagem
+A vantagem é que os servicos ficam desaclopados, posso fazer alteracoes nos servicos sem afetar o outro
+
+Desvantagem
+A desvantagem é que a plataforma inteira fica refem do Message Brocker
+
+-Microservicos #3
+
+No modelo 3 de microservicos a requisicao passa por um pipeline (gerenciador de requisicoes), 
+cada servico com sua depedencia
+
+Ex. exemplo de sistema de Gerenciamento de pipeline - AWS  
