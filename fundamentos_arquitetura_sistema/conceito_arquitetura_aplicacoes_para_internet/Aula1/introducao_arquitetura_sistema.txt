@@ -1,0 +1,21 @@
+<<Objetivo da Aula>>
+
+1. Tipos de Arquitetura
+2. Comparativo de diferentes tipos de Arquitetura
+3. Gerenciamento de erros e volumes de acessso
+
+<<Tipos de Arquitetura>>
+
+-Monolitico
+Vide Imagem: arquitetura_monolitico
+arquitetura monolitico é  uma arquitetura mais simples e tem alguns pontos falhos
+
+Arquiteturas de Microservicos
+-Microservicos #1
+
+Vide Imagem: microservicos_#1   
+O primeiro modelo de microservicos poder mais complexo de monitorar conforma o sistema for crescendo
+e o esquema na imagem nos mostra que cada camada poder um sistema monolitico onde se conectam entre simples
+atravez de uma solicitacao do cliente web ou mobile.
+
+-Microservicos #2
