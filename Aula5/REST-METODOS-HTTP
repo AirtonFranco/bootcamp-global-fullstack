@@ -1,0 +1,14 @@
+<<OBJETIVO DA AULA>>
+
+1. Integracao com servicos REST
+2. metodo HTTP na prática
+3. Código de estado HTTP
+
+<<Código de Estado ou Status Code>>
+
+- Usado pelo servidor para avisar o cliente sobre o estado de operacao solicitada
+- 100 (Informativo)
+- 200 (Sucesso)
+- 300 (Redirecionamento)
+- 400 (Erro do Cliente)
+- 500 (Erro do Servidor)
