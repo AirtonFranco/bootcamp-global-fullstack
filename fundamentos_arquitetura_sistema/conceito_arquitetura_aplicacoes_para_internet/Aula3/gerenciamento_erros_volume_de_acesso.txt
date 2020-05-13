@@ -1,0 +1,6 @@
+<<Gerenciaento de erros>>
+
+vide imagem: gerenciamento_de_erros
+
+Dead letter queue: Na fila de mensagens, a fila de mensagens não entregues é uma implementação de serviço para armazenar mensagens que atendem a um ou mais dos seguintes critérios: Mensagem que é enviada para uma fila que não existe. 
+Limite de comprimento da fila excedido. Limite de tamanho da mensagem excedido.

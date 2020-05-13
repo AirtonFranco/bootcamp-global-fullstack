@@ -1,0 +1,17 @@
+<<Pros e Contra>>
+
+-Monolito
+
+vide imagem: pros_contra_monolito
+
+-Microservicos #1
+
+vide imagem: pros_contra_microservicos#1
+
+-Microservicos #2
+
+vide imagem: pros_contra_microservicos#2
+
+-Microservicos #3
+
+vide imagem: pros_contra_microservicos#3
