@@ -1,0 +1,15 @@
+Ptotocolo IOT
+
+- Protocolo MQTT
+É um protocolo universal do IOT
+vide imagem: protocolo_mqqt
+
+Sistema Operacional REAL TIME para Arduino
+O RespbiryPI ultiliza qualquer sistema operacional, Linux, Windows e etc... 
+
+MQTT Broker: Tema a funcao de receber uma mensagem em uma ponta e entregar na outra, 
+é um softaware especializado em receber uma mensagem
+
+Modelo que o MQTT ultiliza é o Modelo Publish
+
+Vide Imagem: modelo_publish_subscribe
