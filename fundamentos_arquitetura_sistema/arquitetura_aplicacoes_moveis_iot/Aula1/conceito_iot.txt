@@ -1,0 +1,15 @@
+<<Conceito de IOT>>
+
+Primeiro projeto antes da internet se chamava ARPANET, onde o intuito era conectar computadores militares
+
+Computação ubíqua (em inglês: Ubiquitous Computing ou ubicomp) ou computação pervasiva é um termo usado para descrever a onipresença da informática no cotidiano das pessoas.
+
+<<Deseafios do IOT>>
+
+1. Privacidade e Segurança
+
+2. Quantidade exponencial de dispositivos conectados na rede
+
+3. Ser Capaz de processar e armazenar uma enorme quantidade de informacao
+
+4. Gerar valor a partir dos dados coletados
